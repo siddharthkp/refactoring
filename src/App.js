@@ -1,7 +1,7 @@
 import React from 'react'
 import { Router, Link } from '@reach/router'
 import './App.css'
-import Key from './key'
+import List from './list'
 import Form from './form'
 
 const Home = () => (
@@ -13,12 +13,12 @@ const Home = () => (
 const App = () => (
   <React.Fragment>
     <nav>
-      <Link to="/key">Dynamic list</Link> |{' '}
+      <Link to="/list">Dynamic list</Link> |{' '}
       <Link to="/form">Password form</Link>
     </nav>
     <Router>
       <Home path="/" />
-      <Key path="/key" />
+      <List path="/list" />
       <Form path="/form" />
     </Router>
   </React.Fragment>
