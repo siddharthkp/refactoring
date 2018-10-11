@@ -15,14 +15,14 @@ const App = () => (
   <React.Fragment>
     <nav>
       <Link to="/list">Dynamic list</Link> |{' '}
-      <Link to="/form">Password form</Link> |{' '}
-      <Link to="/controlled">Controlled input</Link>
+      <Link to="/controlled">Controlled input</Link> |{' '}
+      <Link to="/form">Password form</Link>
     </nav>
     <Router>
       <Home path="/" />
       <List path="/list" />
-      <Form disabled={false} path="/form" />
       <Controlled path="/controlled" />
+      <Form path="/form" />
     </Router>
   </React.Fragment>
 )

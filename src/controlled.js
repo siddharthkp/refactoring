@@ -68,7 +68,7 @@ class Controlled extends React.Component {
 const Form = props => {
   return (
     <form onSubmit={props.onSubmit}>
-      Rename {props.selected} to:
+      <div>Rename {props.selected} to:</div>
       <input type="text" autoFocus />
       <button>Save</button>
     </form>

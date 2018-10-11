@@ -81,6 +81,11 @@ form > * {
   margin-bottom: 16px;
   width: 100%;
 }
+form {
+  display: block;
+  text-align: left;
+  color: #4e585d;
+}
 label {
   display: block;
   text-align: left;
@@ -98,14 +103,4 @@ aside div {
 main {
   width: 60%;
   float: right;
-}
-/* rogue styles: */
-
-form {
-  display: block;
-  text-align: left;
-  color: #4e585d;
-}
-form input {
-  margin-top: 20px;
 }
