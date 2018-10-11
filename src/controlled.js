@@ -40,7 +40,7 @@ class Controlled extends React.Component {
     categories[categories.indexOf(oldName)] = newName
     this.setState({ categories, selected: newName })
   }
-  select = category => {
+  onSelect = category => {
     this.setState({ selected: category, value: category })
   }
 
@@ -50,7 +50,7 @@ class Controlled extends React.Component {
         <SideNav
           categories={this.state.categories}
           selected={this.state.selected}
-          onSelect={this.select}
+          onSelect={this.onSelect}
         />
         <main>
           {this.state.selected ? (
