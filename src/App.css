@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   text-align: center;
-  padding: 64px;
+  padding: 64px 32px;
   background: #f3f7f9;
 }
 body,
@@ -12,6 +12,7 @@ button {
 }
 nav {
   margin-bottom: 64px;
+  color: #9ab6c3;
 }
 ul {
   background: #fff;
@@ -42,6 +43,10 @@ input:focus {
   border-color: #0692dd;
   outline: none;
 }
+input:disabled {
+  opacity: 0.5;
+  background: #eee;
+}
 button {
   min-width: 200px;
   text-align: center;
@@ -62,12 +67,14 @@ a {
   color: #0692dd;
   text-decoration: none;
   padding: 2px;
+  cursor: pointer;
 }
 a[aria-current] {
   border-bottom: 2px solid #0692dd;
 }
 form {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   margin: 0 auto;
 }
 form > * {
@@ -79,4 +86,26 @@ label {
   text-align: left;
   color: #4e585d;
   margin-bottom: 32px;
+}
+aside {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+aside div {
+  padding-bottom: 32px;
+}
+main {
+  width: 60%;
+  float: right;
+}
+/* rogue styles: */
+
+form {
+  display: block;
+  text-align: left;
+  color: #4e585d;
+}
+form input {
+  margin-top: 20px;
 }
