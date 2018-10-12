@@ -18,6 +18,8 @@ const DrillExample = props => {
   return <ProfileForm />
 }
 
+export default DrillExample
+
 /* reusable components */
 
 const TextInput = props => {
@@ -44,5 +46,3 @@ const Button = props => {
 const Form = props => {
   return <form className="form">{props.children}</form>
 }
-
-export default DrillExample
