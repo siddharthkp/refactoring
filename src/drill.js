@@ -19,8 +19,6 @@ const DrillExample = props => {
 
 /* reusable components */
 
-const { Provider, Consumer } = React.createContext()
-
 const TextInput = props => {
   return (
     <input
