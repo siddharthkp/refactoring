@@ -12,7 +12,9 @@ button {
 }
 nav {
   margin-bottom: 64px;
+  font-size: 14px;
   color: #9ab6c3;
+  text-align: left;
 }
 ul {
   background: #fff;
@@ -102,5 +104,5 @@ aside div {
 }
 main {
   width: 60%;
-  float: right;
+  float: left;
 }
