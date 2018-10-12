@@ -22,6 +22,10 @@ export default DrillExample
 
 /* reusable components */
 
+const Form = props => {
+  return <form className="form">{props.children}</form>
+}
+
 const TextInput = props => {
   return (
     <input
@@ -41,8 +45,4 @@ const Button = props => {
       {...props}
     />
   )
-}
-
-const Form = props => {
-  return <form className="form">{props.children}</form>
 }
