@@ -41,7 +41,7 @@ class Controlled extends React.Component {
     this.setState({ categories, selected: newName })
   }
   onSelect = category => {
-    this.setState({ selected: category, value: category })
+    this.setState({ selected: category })
   }
 
   render() {
