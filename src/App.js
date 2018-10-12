@@ -5,6 +5,7 @@ import Spaghetti from './spaghetti'
 import List from './list'
 import Form from './form'
 import Controlled from './controlled'
+import Drill from './drill'
 
 const Home = () => (
   <h1 style={{ width: 400 }}>
@@ -19,8 +20,7 @@ const App = () => (
       <Link to="/list">Dynamic list</Link> |{' '}
       <Link to="/controlled">Controlled input</Link> |{' '}
       <Link to="/form">Password form</Link> |{' '}
-      <Link to="/drill">Drill</Link> |{' '}
-      <Link to="/context">Compound</Link>
+      <Link to="/drill">Drill</Link>
     </nav>
     <Router>
       <Home path="/" />
@@ -28,6 +28,7 @@ const App = () => (
       <List path="/list" />
       <Controlled path="/controlled" />
       <Form path="/form" />
+      <Drill path="/drill" />
     </Router>
   </React.Fragment>
 )

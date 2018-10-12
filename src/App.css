@@ -12,7 +12,7 @@ button {
 }
 nav {
   margin-bottom: 64px;
-  font-size: 14px;
+  font-size: 15px;
   color: #9ab6c3;
   text-align: left;
 }
@@ -79,7 +79,7 @@ form {
   max-width: 400px;
   margin: 0 auto;
 }
-form > * {
+form * {
   margin-bottom: 16px;
   width: 100%;
 }
