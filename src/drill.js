@@ -5,6 +5,7 @@ import React from 'react'
 const ProfileForm = props => {
   return (
     <Form>
+      <label>Sign up</label>
       <TextInput placeholder="username" />
       <TextInput type="password" placeholder="password" />
       <TextInput type="password" placeholder="confirm" />
